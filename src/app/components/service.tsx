@@ -9,13 +9,13 @@ import { FaMoneyBillWave } from "react-icons/fa";
 const service = () => {
   return (
    <>
-   <section className="services pb-6 pt-10 bg-center bg-gray-100" id="services">
+   <section className="about-us pb-6 pt-10 bg-center" id="services">
       <div className="container mx-auto px-8">
         <div className="section-title mb-6 w-1/2 mx-auto text-center">
           <h2 className="text-3xl font-bold">
-            <span className="text-4xl text-gray-800 font-bold">Our Services</span>
+            <span className="text-3xl font-bold">Our Services</span>
           </h2>
-          <p className="text-gray-900">
+          <p className="text-gray-700">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
           </p>
         </div>
