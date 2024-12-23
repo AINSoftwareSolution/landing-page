@@ -2,7 +2,8 @@
 import React, { useState, useEffect } from "react";
 import { MdKeyboardArrowDown, MdMenu, MdClose } from "react-icons/md";
 import Link from "next/link";
-
+import { LogoImg } from "../utilis/Images";
+import Image from "next/image";
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,8 +25,8 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
-        isScrolled || menuOpen ? "bg-white" : "bg-transparent"
+      className={`fixed top-0 left-0 right-0 z-50 bg-white transition-colors duration-300 ${
+        isScrolled ? "shadow-md" : ""
       }`}
     >
       <div className="container mx-auto px-2 py-4 lg:px-12 flex items-center justify-between">
@@ -33,44 +34,37 @@ const Navbar = () => {
           href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <span
-            className={`text-xl font-bold ${
-              isScrolled || menuOpen ? "text-gray-900" : "text-white"
-            }`}
-          >
-            Logo
-          </span>
+          <div className="bg-white bg-opacity-50 rounded-full">
+            <Image
+              src={LogoImg}
+              alt="Logo"
+              width={225}
+              height={225}
+              priority
+              className="object-contain"
+            />
+          </div>
         </Link>
 
         {/* Hamburger icon for mobile */}
         <button
-          className={`text-2xl md:hidden block ${
-            isScrolled || menuOpen ? "text-gray-900" : "text-black"
-          }`}
+          className="text-2xl md:hidden block text-gray-900"
           onClick={() => setMenuOpen(!menuOpen)}
         >
-          {menuOpen ? (
-            <MdClose size={24} />
-          ) : (
-            <MdMenu size={24} />
-          )}
+          {menuOpen ? <MdClose size={24} /> : <MdMenu size={24} />}
         </button>
 
         {/* Navbar items */}
         <div
           className={`${
             menuOpen ? "block" : "hidden"
-          } md:flex md:items-center absolute md:static top-full left-0 right-0 md:bg-transparent transition-all duration-300`}
+          } md:flex md:items-center absolute md:static top-full left-0 right-0 bg-white md:bg-transparent transition-all duration-300`}
         >
-          <ul className="flex flex-col md:flex-row md:space-x-6 font-medium md:bg-transparent bg-white p-4 md:p-0 space-y-4 md:space-y-0">
+          <ul className="flex flex-col md:flex-row md:space-x-6 font-medium bg-white md:bg-transparent p-4 md:p-0 space-y-4 md:space-y-0">
             <li>
               <Link
                 href="/#home"
-                className={`block py-2 px-3 rounded font-semibold md:hover:bg-transparent md:hover:text-blue-700 ${
-                  isScrolled || menuOpen
-                    ? "text-gray-900 hover:bg-gray-100"
-                    : "text-white"
-                }`}
+                className="block py-2 px-3 rounded font-semibold text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700"
               >
                 Home
               </Link>
@@ -78,11 +72,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/#about"
-                className={`block py-2 px-3 rounded font-semibold md:hover:bg-transparent md:hover:text-blue-700 ${
-                  isScrolled || menuOpen
-                    ? "text-gray-900 hover:bg-gray-100"
-                    : "text-white"
-                }`}
+                className="block py-2 px-3 rounded font-semibold text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700"
               >
                 About
               </Link>
@@ -90,22 +80,18 @@ const Navbar = () => {
             <li>
               <Link
                 href="/#services"
-                className={`block py-2 px-3 rounded font-semibold md:hover:bg-transparent md:hover:text-blue-700 ${
-                  isScrolled || menuOpen
-                    ? "text-gray-900 hover:bg-gray-100"
-                    : "text-white"
-                }`}
+                className="block py-2 px-3 rounded font-semibold text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700"
               >
                 Services
               </Link>
             </li>
             <li>
-              <button
-                type="button"
-                className="py-2 px-4 text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 font-bold rounded-lg text-md text-center"
+              <a
+                href="tel:+91-7709502204"
+                className="py-2 px-4 text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 font-bold rounded-lg text-md text-center inline-block"
               >
                 Call Now
-              </button>
+              </a>
             </li>
           </ul>
         </div>
@@ -113,4 +99,5 @@ const Navbar = () => {
     </div>
   );
 };
-export default Navbar
+
+export default Navbar;

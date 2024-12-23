@@ -6,13 +6,10 @@ import { AgraImg, BangkokImg, DubaiImg, GoaImg, KashmirImg, KeralaImg, MaldivesI
 const Destination = () => {
   return (
     <>
-<section className="trending py-12 bg-gray-100">
-  <div className="container mx-auto">
-    <div className="section-title mb-12 w-2/4 lg:w-1/2 mx-auto text-center">
-      <h4 className="mb-2 text-theme1 text-lg font-semibold uppercase tracking-wide">
-        Top Destinations
-      </h4>
-      <h2 className="mb-4 text-3xl lg:text-4xl font-bold text-gray-800">
+<section className="trending py-12 bg-white">
+  <div className="container mx-auto px-4" data-aos="fade-up">
+    <div className="section-title mb-12 w-2/4 lg:w-1/2 mx-auto text-center" >
+      <h2 className="mb-4 text-3xl lg:text-4xl font-bold text-blue-700" data-aos="zoom-out" data-aos-delay="100">
         Explore <span className="text-theme">Top Destinations</span>
       </h2>
       <p className="text-gray-600">

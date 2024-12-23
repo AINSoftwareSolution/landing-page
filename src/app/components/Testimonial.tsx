@@ -1,14 +1,12 @@
 import React from "react";
-import Image from "next/image";
-
 const Testimonial = () => {
   return (
     <>
       <section className="bg-white">
-        <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-          <h2 className="text-center text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl">
+        <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16" data-aos="fade-up">
+          <h2 className="text-center text-3xl font-bold tracking-tight text-blue-700 sm:text-5xl" data-aos="zoom-out" data-aos-delay="100">
             Read trusted reviews from our customers
-          </h2>
+          </h2> 
 
           <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
             <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
@@ -81,10 +79,9 @@ const Testimonial = () => {
               <div className="flex items-center gap-4">
                 <img
                   alt=""
-                  src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                  src="https://plus.unsplash.com/premium_photo-1723754591877-4178579ce444?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   className="size-14 rounded-full object-cover"
                 />
-
                 <div>
                   <div className="flex justify-center gap-0.5 text-green-500">
                     <svg
@@ -130,7 +127,7 @@ const Testimonial = () => {
                   </div>
 
                   <p className="mt-0.5 text-lg font-medium text-gray-900">
-                    Paul Starr
+                    Bhavik Nasit
                   </p>
                 </div>
               </div>
@@ -147,7 +144,7 @@ const Testimonial = () => {
               <div className="flex items-center gap-4">
                 <img
                   alt=""
-                  src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                  src="https://images.unsplash.com/photo-1733371001616-0341f62c56c1?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   className="size-14 rounded-full object-cover"
                 />
 
@@ -196,7 +193,7 @@ const Testimonial = () => {
                   </div>
 
                   <p className="mt-0.5 text-lg font-medium text-gray-900">
-                    Paul Starr
+                    Kyle McLeod
                   </p>
                 </div>
               </div>
