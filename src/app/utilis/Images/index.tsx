@@ -9,13 +9,13 @@ import BangkokImg from "./bangkok.jpg";
 import AgraImg from "./agra.jpg";
 
 // Logo
-import LogoImg from "./logo.png"
+import LogoImg from "./logo1.png"
 
 // banner
 import MountainImg from "./mountain.jpg";
 import RoadImg from "./road.jpg";
 import BeachImg from "./sea-beach.jpg";
-import FlightImg from "./flight.jpg"
+import FlightImg from "./flight1.png"
 import HotelImg from "./hotel.png"
 import TrainImg from "./train.png"
 import BusImg from "./bus.png"

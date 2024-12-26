@@ -13,7 +13,7 @@ const Testimonial = () => {
               <div className="flex items-center gap-4">
                 <img
                   alt=""
-                  src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+                  src="https://img.freepik.com/free-photo/portrait-serious-smiling-modern-indian-man-near-office-building_496169-2890.jpg?t=st=1735218098~exp=1735221698~hmac=662f9518beb4666fc23facca113077e822315a1f1220da5d125ca11b6d25f54b&w=740"
                   className="size-14 rounded-full object-cover"
                 />
 
@@ -62,16 +62,12 @@ const Testimonial = () => {
                   </div>
 
                   <p className="mt-0.5 text-lg font-medium text-gray-900">
-                    Paul Starr
+                    Rahul Kumar
                   </p>
                 </div>
               </div>
-
               <p className="mt-4 text-gray-700">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-                sit rerum incidunt, a consequuntur recusandae ab saepe illo est
-                quia obcaecati neque quibusdam eius accusamus error officiis
-                atque voluptates magnam!
+              EasyBookings.in didn’t just help me book my travel and stay; they also provided destination guides that were super helpful. I discovered amazing attractions and experiences I wouldn’t have found on my own!
               </p>
             </blockquote>
 
@@ -133,21 +129,16 @@ const Testimonial = () => {
               </div>
 
               <p className="mt-4 text-gray-700">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-                sit rerum incidunt, a consequuntur recusandae ab saepe illo est
-                quia obcaecati neque quibusdam eius accusamus error officiis
-                atque voluptates magnam!
+              Finding a budget-friendly yet luxurious hotel was so easy on EasyBookings.in. The detailed descriptions, real photos, and verified customer reviews helped me make the best choice. I had a pleasant stay, thanks to them!
               </p>
             </blockquote>
-
             <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
               <div className="flex items-center gap-4">
                 <img
                   alt=""
-                  src="https://images.unsplash.com/photo-1733371001616-0341f62c56c1?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="https://img.freepik.com/free-photo/cheerful-indian-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-129416.jpg?t=st=1735218525~exp=1735222125~hmac=e4f77530f5fce6aaa196717d5a0c1309a39075bfec10d7571837b00c55b0868e&w=740"
                   className="size-14 rounded-full object-cover"
                 />
-
                 <div>
                   <div className="flex justify-center gap-0.5 text-green-500">
                     <svg
@@ -193,16 +184,12 @@ const Testimonial = () => {
                   </div>
 
                   <p className="mt-0.5 text-lg font-medium text-gray-900">
-                    Kyle McLeod
+                    Satvik S Patel
                   </p>
                 </div>
               </div>
-
               <p className="mt-4 text-gray-700">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-                sit rerum incidunt, a consequuntur recusandae ab saepe illo est
-                quia obcaecati neque quibusdam eius accusamus error officiis
-                atque voluptates magnam!
+              I booked my flight through EasyBookings.in, and the entire process was seamless. The website provided me with multiple options, competitive prices, and an easy checkout process. I appreciated the instant email confirmation and updates about my flight. Highly recommended!
               </p>
             </blockquote>
           </div>

@@ -19,16 +19,19 @@ const Footer = () => {
         <div className="container mx-auto px-12">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
-              <div className="bg-opacity-50">
-                <Image
-                  src={LogoImg}
-                  alt="Logo"
-                  width={225}
-                  height={225}
-                  priority
-                  className="rounded-lg opacity-100" // Set opacity here
-                />
-              </div>
+            <div
+  className="relative " 
+>
+  <Image
+    src={LogoImg}
+    alt="Logo"
+    width={225}
+    height={225}
+    priority
+    className="object-contain rounded-lg " 
+  />
+</div>
+
 
               <p className="text-gray-400 mt-4 ">
               At EasyBookings.in, we simplify your travel plans with a full range of services to meet all your needs.
