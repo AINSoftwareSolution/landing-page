@@ -67,7 +67,7 @@ const Testimonial = () => {
                 </div>
               </div>
               <p className="mt-4 text-gray-700">
-              EasyBookings.in didn’t just help me book my travel and stay; they also provided destination guides that were super helpful. I discovered amazing attractions and experiences I wouldn’t have found on my own!
+              EasyBookings.in didn &apos;t just help me book my travel and stay; they also provided destination guides that were super helpful. I discovered amazing attractions and experiences I wouldn’t have found on my own!
               </p>
             </blockquote>
 
